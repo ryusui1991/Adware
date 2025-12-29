@@ -1,0 +1,115 @@
+/* Aggressive ad styles */
+.ad-fullscreen {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 2147483647 !important;
+  background: rgba(0, 0, 0, 0.95) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.ad-video-container {
+  width: 90% !important;
+  height: 70% !important;
+  background: black !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.ad-deceptive-close {
+  position: absolute !important;
+  width: 30px !important;
+  height: 30px !important;
+  background: #ff4444 !important;
+  color: white !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  z-index: 2147483647 !important;
+  transition: all 0.3s !important;
+}
+
+.ad-deceptive-close:hover {
+  transform: scale(1.2) !important;
+}
+
+.ad-banner-bottom {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100px !important;
+  background: white !important;
+  z-index: 2147483646 !important;
+  border-top: 2px solid #ccc !important;
+}
+
+.ad-interstitial {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 300px !important;
+  height: 400px !important;
+  background: white !important;
+  border-radius: 15px !important;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5) !important;
+  z-index: 2147483647 !important;
+  overflow: hidden !important;
+}
+
+.ad-countdown {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+  color: white !important;
+  padding: 5px 10px !important;
+  border-radius: 20px !important;
+  font-size: 0.9rem !important;
+}
+
+/* Fake system notification */
+.ad-system-notification {
+  position: fixed !important;
+  top: 20px !important;
+  right: 20px !important;
+  background: #4CAF50 !important;
+  color: white !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  z-index: 2147483647 !important;
+  max-width: 300px !important;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* Disguised ad as content */
+.ad-disguised {
+  background: #f0f0f0 !important;
+  border-radius: 10px !important;
+  padding: 20px !important;
+  margin: 20px !important;
+  border-left: 5px solid #4CAF50 !important;
+}
+
+.ad-fake-button {
+  display: inline-block !important;
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  padding: 12px 30px !important;
+  border-radius: 25px !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin: 10px !important;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4) !important;
+}
